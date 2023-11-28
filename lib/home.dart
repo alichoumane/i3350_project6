@@ -16,9 +16,9 @@ class Home extends StatelessWidget {
             title: Text("Multi tabs demos", style: TextStyle(fontSize: 22.0),),
             centerTitle: true,
             bottom: const TabBar(tabs: [
-              Icon(Icons.camera_alt, size: 30,),
-              Icon(Icons.chat, size: 30,),
-              Icon(Icons.group, size: 30,)
+              Tab(icon:Icon(Icons.camera_alt, size: 30,)),
+              Tab(icon: Icon(Icons.chat, size: 30,)),
+              Tab(icon:Icon(Icons.group, size: 30,)),
             ]),
           ),
           body: const TabBarView(
